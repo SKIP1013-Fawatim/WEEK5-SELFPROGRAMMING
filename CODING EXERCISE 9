@@ -1,0 +1,44 @@
+package selfProgramming;
+import java.util.Scanner;
+public class SwitchExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		//with break
+		int m=23;
+		switch (m) {
+		case 1:
+			System.out.println("m=1");
+			break;
+		case 23: 
+			System.out.println("m=23");
+			break;
+		case 3:
+			System.out.println("m=3");
+		    break;
+		case 4:
+			System.out.println("m=4");
+	    default:
+	    	System.out.println("default");
+		}
+		
+		//without break
+		char grade='b';
+		switch (grade) {
+		case 'a':
+			System.out.println("grade=a");
+		case 'b': 
+			System.out.println("grade=b");
+		case 'c':
+			System.out.println("grade=c");
+	    default:
+	    	System.out.println("default");
+		}
+		
+		
+		
+	}
+
+}
