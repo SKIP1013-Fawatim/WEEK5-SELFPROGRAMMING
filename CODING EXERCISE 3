@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class BlockStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		int errorcount=0;
+		
+		System.out.println("Enter 3 number");
+		int num1=sc.nextInt();
+		int num2=sc.nextInt();
+		int num3=sc.nextInt();
+		
+		int total = num1+num2+num3;
+		
+		System.out.println("Enter maximum number");
+		int max=sc.nextInt();
+		
+		if(total>max)
+		{ System.out.println("Error!!");
+		errorcount++;
+		}
+        
+		System.out.println("Error count is "+errorcount);
+  }
+
+}
